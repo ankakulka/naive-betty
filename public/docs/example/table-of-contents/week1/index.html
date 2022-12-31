@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Descriptive statistics for exploring data#Learning Objectives#Understanding the basics of descriptive statistics and its tools Getting familiar with important principles for visualizing information Ability to apply knowledge and understand descriptive statistics of real data You can summarize data in two ways:
+Using nummerical summaries. Using pictures. Vizualising data is preferable not just because most people rather look at pictures than at numbers, but it can also reveal trends that are not obvious instantanously, especially when looking at a large data set.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Week 1" />
+<meta property="og:description" content="Descriptive statistics for exploring data#Learning Objectives#Understanding the basics of descriptive statistics and its tools Getting familiar with important principles for visualizing information Ability to apply knowledge and understand descriptive statistics of real data You can summarize data in two ways:
+Using nummerical summaries. Using pictures. Vizualising data is preferable not just because most people rather look at pictures than at numbers, but it can also reveal trends that are not obvious instantanously, especially when looking at a large data set." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/docs/example/table-of-contents/week1/" /><meta property="article:section" content="docs" />
+
+
+
+<title>Week 1 | My New Hugo Site</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.8eea7dd5dd354a88d3cb968b97a29edd24b945136d01ceb7e0d3811532572422.js" integrity="sha256-jup91d01SojTy5aLl6Ke3SS5RRNtAc634NOBFTJXJCI=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>My New Hugo Site</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/example/" class="">Example Site</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/" class="">Table of Contents</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/week1/" class="active">Week 1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/with-toc/" class="">With ToC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/without-toc/" class="">Without ToC</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4e46b01272d410b3a99461d79326ddf4" class="toggle"  />
+    <label for="section-4e46b01272d410b3a99461d79326ddf4" class="flex justify-between">
+      <a role="button" class="">Collapsed</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/collapsed/3rd-level/" class="">3rd Level</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/collapsed/3rd-level/4th-level/" class="">4th Level</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Shortcodes</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/buttons/" class="">Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/columns/" class="">Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/details/" class="">Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/expand/" class="">Expand</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/hints/" class="">Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/katex/" class="">Katex</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/mermaid/" class="">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="toggle"  />
+    <label for="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="flex justify-between">
+      <a href="/docs/shortcodes/section/" class="">Section</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/section/first-page/" class="">First Page</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/section/second-page/" class="">Second Page</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/tabs/" class="">Tabs</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Week 1</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#learning-objectives">Learning Objectives</a>
+      <ul>
+        <li><a href="#types-of-data">Types of data</a></li>
+        <li><a href="#pie-chart-bar-graph-and-histograms">Pie Chart, Bar Graph, and Histograms</a></li>
+        <li><a href="#box-plot-and-scatter-plot">Box Plot and Scatter Plot</a></li>
+        <li><a href="#providing-context-is-key-for-statistical-analyses">Providing Context is Key for Statistical Analyses</a></li>
+        <li><a href="#pitfalls-when-visualizing-information">Pitfalls when Visualizing Information</a></li>
+      </ul>
+    </li>
+    <li><a href="#nummerical-summary-measures">Nummerical Summary Measures</a>
+      <ul>
+        <li><a href="#mean-and-median">Mean and Median</a></li>
+        <li><a href="#percentile-the-five-number-summary-and-standard-deviation">Percentile, the Five Number Summary and Standard Deviation</a></li>
+      </ul>
+    </li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="descriptive-statistics-for-exploring-data">
+  Descriptive statistics for exploring data
+  <a class="anchor" href="#descriptive-statistics-for-exploring-data">#</a>
+</h1>
+<h2 id="learning-objectives">
+  Learning Objectives
+  <a class="anchor" href="#learning-objectives">#</a>
+</h2>
+<ul>
+<li>Understanding the basics of descriptive statistics and its tools</li>
+<li>Getting familiar with important principles for visualizing information</li>
+<li>Ability to apply knowledge and understand descriptive statistics of real data</li>
+</ul>
+<p>You can summarize data in two ways:</p>
+<ol>
+<li>Using nummerical summaries.</li>
+<li>Using pictures.</li>
+</ol>
+<p>Vizualising data is preferable not just because most people rather look at pictures than at numbers, but it can also reveal trends that are not obvious instantanously, especially when looking at a large data set.
+Choosing how to visualize data depends on the type of data and the goal of the visualization.</p>
+<h3 id="types-of-data">
+  Types of data
+  <a class="anchor" href="#types-of-data">#</a>
+</h3>
+<p><strong>Quantitative</strong>  variables are  numerical, measurable quantities in which arithmetic operations often make sense.
+These can be:</p>
+<ol>
+<li><strong>Continuous</strong>: could take on any possible value within an interval, many possible values.
+For example: height, weight, time</li>
+<li><strong>Discrete</strong>: countable value, finite number of values: has to take an integer value.
+For example: a number of children in a household</li>
+</ol>
+<p><strong>Qualitative</strong> (Categorical) variables classify individuals or items into different groups.</p>
+<ol>
+<li><strong>Ordinal</strong>: groups that have an order or ranking
+For example: student ranking</li>
+<li><strong>Nominal</strong>: doesn&rsquo;t have any associates ranking with ranking with it.
+For example: marital status</li>
+</ol>
+<h3 id="pie-chart-bar-graph-and-histograms">
+  Pie Chart, Bar Graph, and Histograms
+  <a class="anchor" href="#pie-chart-bar-graph-and-histograms">#</a>
+</h3>
+<ul>
+<li><strong>Qualitative data</strong>: pie chart or dot plot
+<ul>
+<li>Comparison is easier on the dot plot</li>
+<li>Pie chart is better at showing the percentage of the total that the category represents
+
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>Expand</span>
+      <span>↕</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <pre><code>        Problems with pie charts
+        - Very small slices might overlap 
+        - it is hard to compare slices without proper labeling: it is easier to compare when looking at a bar chart
+</code></pre>
+
+    </div>
+  </label>
+</div>
+</li>
+</ul>
+</li>
+<li><strong>Quantitative</strong>(numbers): bar chart and histogram
+<ul>
+<li>Bar chart: pnly the height of the bars is meaningful</li>
+<li>Histogram: allows to use bars with different widths representing frequency distribution.
+{{&lt; /expand &ldquo;Custom Label&rdquo; &ldquo;Four main aspects of histograms:&rdquo;/ */&gt;}
+<ol>
+<li>Shape: overall shape of a histogram:
+<ul>
+<li>symmetric</li>
+<li>bell-shaped (unimodal: has one peak)</li>
+<li>left-skewed
+-right-skewed</li>
+</ul>
+</li>
+<li>Center: mean or median</li>
+<li>Spread: how far the data spread. Range, Interquartile Range (IQR), standarn deviation, variance</li>
+<li>Outliers: data points that fall far from the bulk of the data
+{{{&lt;/* /expand &gt;}}</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="box-plot-and-scatter-plot">
+  Box Plot and Scatter Plot
+  <a class="anchor" href="#box-plot-and-scatter-plot">#</a>
+</h3>
+<p>Box plot - also called Box-and-Whisker Plot</p>
+<h3 id="providing-context-is-key-for-statistical-analyses">
+  Providing Context is Key for Statistical Analyses
+  <a class="anchor" href="#providing-context-is-key-for-statistical-analyses">#</a>
+</h3>
+<p>The purpose of a statistical analysis is typically to compare the observed data to some kind of reference. Therefore, it&rsquo;s very useful to provide context in graphical displays. There&rsquo;s a nice explanation of this in the book &lsquo;The Visual Display of Quantitative Information&rsquo; by Edward Tufte.</p>
+<h3 id="pitfalls-when-visualizing-information">
+  Pitfalls when Visualizing Information
+  <a class="anchor" href="#pitfalls-when-visualizing-information">#</a>
+</h3>
+<ul>
+<li>Avoid flashy graphics</li>
+<li>Generally 3D graphics are making it harder to read the information</li>
+<li></li>
+</ul>
+<h2 id="nummerical-summary-measures">
+  Nummerical Summary Measures
+  <a class="anchor" href="#nummerical-summary-measures">#</a>
+</h2>
+<h3 id="mean-and-median">
+  Mean and Median
+  <a class="anchor" href="#mean-and-median">#</a>
+</h3>
+<h3 id="percentile-the-five-number-summary-and-standard-deviation">
+  Percentile, the Five Number Summary and Standard Deviation
+  <a class="anchor" href="#percentile-the-five-number-summary-and-standard-deviation">#</a>
+</h3>
+<h2 id="references">
+  References
+  <a class="anchor" href="#references">#</a>
+</h2>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#learning-objectives">Learning Objectives</a>
+      <ul>
+        <li><a href="#types-of-data">Types of data</a></li>
+        <li><a href="#pie-chart-bar-graph-and-histograms">Pie Chart, Bar Graph, and Histograms</a></li>
+        <li><a href="#box-plot-and-scatter-plot">Box Plot and Scatter Plot</a></li>
+        <li><a href="#providing-context-is-key-for-statistical-analyses">Providing Context is Key for Statistical Analyses</a></li>
+        <li><a href="#pitfalls-when-visualizing-information">Pitfalls when Visualizing Information</a></li>
+      </ul>
+    </li>
+    <li><a href="#nummerical-summary-measures">Nummerical Summary Measures</a>
+      <ul>
+        <li><a href="#mean-and-median">Mean and Median</a></li>
+        <li><a href="#percentile-the-five-number-summary-and-standard-deviation">Percentile, the Five Number Summary and Standard Deviation</a></li>
+      </ul>
+    </li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

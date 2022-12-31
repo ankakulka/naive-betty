@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Dec 2022 15:16:02 +0100</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://example.org/posts/test/</link>
+      <pubDate>Thu, 29 Dec 2022 15:16:02 +0100</pubDate>
+      
+      <guid>http://example.org/posts/test/</guid>
+      <description>He visited this country also with a view of catching horse-whales, which had bones of very great value for their teeth, of which he brought some to the king. &amp;hellip; The best whales were catched in his own country, of which some were forty-eight, some fifty yards long. He said that he was one of six who had killed sixty in two days.&amp;quot; &amp;ndash;OTHER OR OCTHER&amp;rsquo;S VERBAL NARRATIVE TAKEN DOWN FROM HIS MOUTH BY KING ALFRED, A.</description>
+    </item>
+    
+  </channel>
+</rss>
