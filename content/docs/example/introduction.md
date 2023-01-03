@@ -1,5 +1,5 @@
 ---
-title: Week 1
+title: Introduction
 weight: 1
 draft: false
 ---
@@ -79,6 +79,9 @@ The purpose of a statistical analysis is typically to compare the observed data 
 - Avoid flashy graphics
 - Generally 3D graphics are making it harder to read the information
 
+Edward Tufte is the authority in the field of visualisation. 
+Check out [his page](https://www.edwardtufte.com/tufte/)
+
 
 ## Nummerical Summary Measures
 
@@ -90,4 +93,9 @@ The purpose of a statistical analysis is typically to compare the observed data 
 
 
 ## References
+
+https://flowingdata.com/
+https://informationisbeautiful.net/
+https://www.nytimes.com/spotlight/graphics
+
 
