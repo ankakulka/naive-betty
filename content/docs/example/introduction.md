@@ -13,8 +13,6 @@ draft: false
 - Getting familiar with important principles for visualizing information
 - Ability to apply knowledge and understand descriptive statistics of real data
 
-
-
 You can summarize data in two ways:
 1. Using nummerical summaries.
 2. Using pictures.
@@ -22,9 +20,9 @@ You can summarize data in two ways:
 Vizualising data is preferable not just because most people rather look at pictures than at numbers, but it can also reveal trends that are not obvious instantanously, especially when looking at a large data set.
 Choosing how to visualize data depends on the type of data and the goal of the visualization. 
 
-### Types of data
+## Types of data
 
-**Quantitative**  variables are  numerical, measurable quantities in which arithmetic operations often make sense.
+**Quantitative** variables are  numerical, measurable quantities in which arithmetic operations often make sense.
 These can be:
 1. **Continuous**: could take on any possible value within an interval, many possible values.
     For example: height, weight, time
@@ -36,39 +34,6 @@ These can be:
     For example: student ranking
 2. **Nominal**: doesn't have any associates ranking with ranking with it.
     For example: marital status
-
-### Pie Chart, Bar Graph, and Histograms
-
-- **Qualitative data**: pie chart or dot plot 
-    - Comparison is easier on the dot plot
-    - Pie chart is better at showing the percentage of the total that the category represents
-    {{< expand "Problems with pie charts">}}  
-    - Very small slices might overlap 
-    - it is hard to compare slices without proper labeling: it is easier to compare when looking at a bar chart
-    {{< /expand >}}
-- **Quantitative**(numbers): bar chart and histogram
-    - Bar chart: pnly the height of the bars is meaningful
-    - Histogram: allows to use bars with different widths representing frequency distribution.
-    {{< expand "Four main aspects of histograms" "" >}}
-    1. Shape: overall shape of a histogram:
-            - symmetric
-            - bell-shaped (unimodal: has one peak)
-            - left-skewed
-            -right-skewed
-    2. Center: mean or median
-    3. Spread: how far the data spread:
-        - Range
-        - Interquartile Range (IQR)
-        - standarn deviation
-        - variance
-    4. Outliers: data points that fall far from the bulk of the data
-    {{< /expand >}}
-
-
-### Box Plot and Scatter Plot
-
-Box plot - also called Box-and-Whisker Plot
-
 
 ### Providing Context is Key for Statistical Analyses
 
@@ -86,7 +51,6 @@ Check out [his page](https://www.edwardtufte.com/tufte/)
 ## Nummerical Summary Measures
 
 
-
 ### Mean and Median
 
 ### Percentile, the Five Number Summary and Standard Deviation
@@ -97,5 +61,38 @@ Check out [his page](https://www.edwardtufte.com/tufte/)
 https://flowingdata.com/
 https://informationisbeautiful.net/
 https://www.nytimes.com/spotlight/graphics
+https://www.storytellingwithdata.com/
 
+[The Surprising History of the Infographic](https://www.smithsonianmag.com/history/surprising-history-infographic-180959563/)
+[How to Be an Educated Consumer of Infographics](https://www.themarginalian.org/index.php/2013/10/08/best-american-infographics-david-byrne/)
+[Edward Tufte](https://www.edwardtufte.com/tufte/)
+[How to Lie with Statistics](https://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728)
+
+
+## Assessment
+
+1. Question 1
+The following five questions are focused around a public library. Staff members are trying to gain insight on current library card holders and have sent out a short survey to them. Read each prompt carefully and determine the variable type for each question.
+
+Library card holders were asked whether or not they have checked out a book from the library in the past month (yes or no). What type of variable would their response be considered?
+- **Categorical Nominal**
+- Categorical Ordinal
+- Quantitative Continuous
+- Quantitative Discrete
+
+2. Question 2
+Library card holders were asked to report the amount of late fees they have been charged in the past year (input in the form of $XX.XX). What type of variable would their response be considered? 
+- Quantitative Continuous
+
+3. Library card holders were asked to reflect on their most recent book they checked out and report the genre that it most closely represented (i.e. Science Fiction, Action, Romance, Mystery, etc.). What type of variable would their response be considered?
+
+- Categorical Nominal
+
+4. The library recently added a new online checkout/renewal system. Library card holders were asked how many times they have used the new online system. What type of variable would their response be considered?
+- Quantitative Discrete
+
+5. Question 5
+Library card holders were asked to report the satisfaction of their library experience during their last visit using a 1 to 5 scale (with the following representations: 1 - Extremely Unsatisfied, 2 - Unsatisfied, 3 - Neutral, 4 - Satisfied, 5 - Extremely Satisfied). What type of variable would their response be considered?
+
+- Categorical Ordinal
 

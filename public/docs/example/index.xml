@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Example Site on My New Hugo Site</title>
+    <title>Statistics introduction on My New Hugo Site</title>
     <link>http://example.org/docs/example/</link>
-    <description>Recent content in Example Site on My New Hugo Site</description>
+    <description>Recent content in Statistics introduction on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/docs/example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>http://example.org/docs/example/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/example/introduction/</guid>
+      <description>Descriptive statistics for exploring data#Learning Objectives#Understanding the basics of descriptive statistics and its tools Getting familiar with important principles for visualizing information Ability to apply knowledge and understand descriptive statistics of real data You can summarize data in two ways:
+Using nummerical summaries. Using pictures. Vizualising data is preferable not just because most people rather look at pictures than at numbers, but it can also reveal trends that are not obvious instantanously, especially when looking at a large data set.</description>
+    </item>
+    
+    <item>
+      <title>Univariate Data</title>
+      <link>http://example.org/docs/example/univariate-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/example/univariate-data/</guid>
+      <description>Univariate data#Types of data#Quantitative variables are numerical, measurable quantities in which arithmetic operations often make sense. These can be:
+Continuous: could take on any possible value within an interval, many possible values. For example: height, weight, time Discrete: countable value, finite number of values: has to take an integer value. For example: a number of children in a household Qualitative (Categorical) variables classify individuals or items into different groups.</description>
+    </item>
+    
     <item>
       <title></title>
       <link>http://example.org/docs/example/hidden/</link>

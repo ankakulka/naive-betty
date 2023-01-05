@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Descriptive statistics for exploring data#Learning Objectives#Understanding the basics of descriptive statistics and its tools Getting familiar with important principles for visualizing information Ability to apply knowledge and understand descriptive statistics of real data You can summarize data in two ways:
+Using nummerical summaries. Using pictures. Vizualising data is preferable not just because most people rather look at pictures than at numbers, but it can also reveal trends that are not obvious instantanously, especially when looking at a large data set.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Introduction" />
+<meta property="og:description" content="Descriptive statistics for exploring data#Learning Objectives#Understanding the basics of descriptive statistics and its tools Getting familiar with important principles for visualizing information Ability to apply knowledge and understand descriptive statistics of real data You can summarize data in two ways:
+Using nummerical summaries. Using pictures. Vizualising data is preferable not just because most people rather look at pictures than at numbers, but it can also reveal trends that are not obvious instantanously, especially when looking at a large data set." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/docs/example/introduction/" /><meta property="article:section" content="docs" />
+
+
+
+<title>Introduction | My New Hugo Site</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.b44b34fe71b7f18662759be28636387885865d5c61e8743efd266706bce8c0b0.js" integrity="sha256-tEs0/nG38YZidZvihjY4eIWGXVxh6HQ&#43;/SZnBrzowLA=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>My New Hugo Site</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/python/numpy-library-intro/" class="">NumPy Library Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/example/" class="">Statistics introduction</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/introduction/" class="active">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/univariate-data/" class="">Univariate Data</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Introduction</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#learning-objectives">Learning Objectives</a>
+      <ul>
+        <li><a href="#providing-context-is-key-for-statistical-analyses">Providing Context is Key for Statistical Analyses</a></li>
+        <li><a href="#pitfalls-when-visualizing-information">Pitfalls when Visualizing Information</a></li>
+      </ul>
+    </li>
+    <li><a href="#nummerical-summary-measures">Nummerical Summary Measures</a>
+      <ul>
+        <li><a href="#mean-and-median">Mean and Median</a></li>
+        <li><a href="#percentile-the-five-number-summary-and-standard-deviation">Percentile, the Five Number Summary and Standard Deviation</a></li>
+      </ul>
+    </li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="descriptive-statistics-for-exploring-data">
+  Descriptive statistics for exploring data
+  <a class="anchor" href="#descriptive-statistics-for-exploring-data">#</a>
+</h1>
+<h2 id="learning-objectives">
+  Learning Objectives
+  <a class="anchor" href="#learning-objectives">#</a>
+</h2>
+<ul>
+<li>Understanding the basics of descriptive statistics and its tools</li>
+<li>Getting familiar with important principles for visualizing information</li>
+<li>Ability to apply knowledge and understand descriptive statistics of real data</li>
+</ul>
+<p>You can summarize data in two ways:</p>
+<ol>
+<li>Using nummerical summaries.</li>
+<li>Using pictures.</li>
+</ol>
+<p>Vizualising data is preferable not just because most people rather look at pictures than at numbers, but it can also reveal trends that are not obvious instantanously, especially when looking at a large data set.
+Choosing how to visualize data depends on the type of data and the goal of the visualization.</p>
+<h3 id="providing-context-is-key-for-statistical-analyses">
+  Providing Context is Key for Statistical Analyses
+  <a class="anchor" href="#providing-context-is-key-for-statistical-analyses">#</a>
+</h3>
+<p>The purpose of a statistical analysis is typically to compare the observed data to some kind of reference. Therefore, it&rsquo;s very useful to provide context in graphical displays. There&rsquo;s a nice explanation of this in the book &lsquo;The Visual Display of Quantitative Information&rsquo; by Edward Tufte.</p>
+<h3 id="pitfalls-when-visualizing-information">
+  Pitfalls when Visualizing Information
+  <a class="anchor" href="#pitfalls-when-visualizing-information">#</a>
+</h3>
+<ul>
+<li>Avoid flashy graphics</li>
+<li>Generally 3D graphics are making it harder to read the information</li>
+</ul>
+<p>Edward Tufte is the authority in the field of visualisation.
+Check out <a href="https://www.edwardtufte.com/tufte/">his page</a></p>
+<h2 id="nummerical-summary-measures">
+  Nummerical Summary Measures
+  <a class="anchor" href="#nummerical-summary-measures">#</a>
+</h2>
+<h3 id="mean-and-median">
+  Mean and Median
+  <a class="anchor" href="#mean-and-median">#</a>
+</h3>
+<h3 id="percentile-the-five-number-summary-and-standard-deviation">
+  Percentile, the Five Number Summary and Standard Deviation
+  <a class="anchor" href="#percentile-the-five-number-summary-and-standard-deviation">#</a>
+</h3>
+<h2 id="references">
+  References
+  <a class="anchor" href="#references">#</a>
+</h2>
+<p><a href="https://flowingdata.com/">https://flowingdata.com/</a>
+<a href="https://informationisbeautiful.net/">https://informationisbeautiful.net/</a>
+<a href="https://www.nytimes.com/spotlight/graphics">https://www.nytimes.com/spotlight/graphics</a>
+<a href="https://www.storytellingwithdata.com/">https://www.storytellingwithdata.com/</a></p>
+<p><a href="https://www.smithsonianmag.com/history/surprising-history-infographic-180959563/">The Surprising History of the Infographic</a>
+<a href="https://www.themarginalian.org/index.php/2013/10/08/best-american-infographics-david-byrne/">How to Be an Educated Consumer of Infographics</a>
+<a href="https://www.edwardtufte.com/tufte/">Edward Tufte</a>
+<a href="https://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728">How to Lie with Statistics</a></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#learning-objectives">Learning Objectives</a>
+      <ul>
+        <li><a href="#providing-context-is-key-for-statistical-analyses">Providing Context is Key for Statistical Analyses</a></li>
+        <li><a href="#pitfalls-when-visualizing-information">Pitfalls when Visualizing Information</a></li>
+      </ul>
+    </li>
+    <li><a href="#nummerical-summary-measures">Nummerical Summary Measures</a>
+      <ul>
+        <li><a href="#mean-and-median">Mean and Median</a></li>
+        <li><a href="#percentile-the-five-number-summary-and-standard-deviation">Percentile, the Five Number Summary and Standard Deviation</a></li>
+      </ul>
+    </li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

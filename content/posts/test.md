@@ -4,6 +4,7 @@ date: 2022-12-29T15:16:02+01:00
 draft: true
 # bookComments: false
 # bookSearchExclude: false
+mermaid: true
 ---
 
 He visited this country also with a view of catching horse-whales,
@@ -64,3 +65,59 @@ Leviathan, which God of all his works
 Created hugest that swim the ocean stream. {{< /tab >}}
 {{< /tabs >}}
 
+
+
+
+# Mermaid Chart
+
+[MermaidJS](https://mermaid-js.github.io/) is library for generating svg charts and diagrams from text.
+
+{{< hint info >}}
+**Override Mermaid Initialization Config**
+
+To override the [initialization config](https://mermaid-js.github.io/mermaid/#/Setup) for Mermaid,
+create a `mermaid.json` file in your `assets` folder!
+{{< /hint >}}
+
+## Example
+
+{{< columns >}}
+```tpl
+{{</*/* mermaid [class="text-center"]*/*/>}}
+stateDiagram-v2
+    State1: The state with a note
+    note right of State1
+        Important information! You can write
+        notes.
+    end note
+    State1 --> State2
+    note left of State2 : This is the note to the left.
+{{</*/* /mermaid */*/>}}
+```
+
+<--->
+
+{{< mermaid >}}
+stateDiagram-v2
+    State1: The state with a note
+    note right of State1
+        Important information! You can write
+        notes.
+    end note
+    State1 --> State2
+    note left of State2 : This is the note to the left.
+{{< /mermaid >}}
+
+{{< /columns >}}
+
+
+{{ if (.Params.mermaid) }}
+{{<mermaid>}}
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+{{</mermaid>}}
+<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
+{{ end }}
