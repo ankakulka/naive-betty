@@ -10,6 +10,8 @@ bookToc: true
 
 ---
 
+# Intro to SciPy Library
+
 https://scipy.org/
 
 >is an open-source software for mathematics, science, and engineering.
