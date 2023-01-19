@@ -13,20 +13,7 @@ mermaid: true
 
 # Univariate data
 
-## Types of data
 
-**Quantitative**  variables are  numerical, measurable quantities in which arithmetic operations often make sense.
-These can be:
-1. **Continuous**: could take on any possible value within an interval, many possible values.
-    For example: height, weight, time
-2. **Discrete**: countable value, finite number of values: has to take an integer value.
-    For example: a number of children in a household
-
-**Qualitative** (Categorical) variables classify individuals or items into different groups. 
-1. **Ordinal**: groups that have an order or ranking
-    For example: student ranking
-2. **Nominal**: doesn't have any associates ranking with ranking with it.
-    For example: marital status
 
 ## Qualitative (categorical) data 
 
