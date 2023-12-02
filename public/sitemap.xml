@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/docs/example/introduction/</loc>
+    <loc>https://naive-betty.netlify.app/docs/example/introduction/</loc>
   </url><url>
-    <loc>http://example.org/docs/python/numpy-library-intro/</loc>
+    <loc>https://naive-betty.netlify.app/docs/python/matplotlib/</loc>
   </url><url>
-    <loc>http://example.org/docs/example/</loc>
+    <loc>https://naive-betty.netlify.app/docs/python/numpy-library-intro/</loc>
   </url><url>
-    <loc>http://example.org/docs/example/univariate-data/</loc>
+    <loc>https://naive-betty.netlify.app/docs/python/scipy_library/</loc>
   </url><url>
-    <loc>http://example.org/docs/example/hidden/</loc>
+    <loc>https://naive-betty.netlify.app/docs/python/silver-for-slaves/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://naive-betty.netlify.app/docs/example/</loc>
   </url><url>
-    <loc>http://example.org/docs/</loc>
+    <loc>https://naive-betty.netlify.app/docs/example/univariate-data/</loc>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://naive-betty.netlify.app/docs/example/hidden/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://naive-betty.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://naive-betty.netlify.app/docs/</loc>
+  </url><url>
+    <loc>https://naive-betty.netlify.app/</loc>
+  </url><url>
+    <loc>https://naive-betty.netlify.app/tags/</loc>
   </url>
 </urlset>

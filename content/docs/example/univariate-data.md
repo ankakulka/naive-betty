@@ -7,7 +7,7 @@ bookFlatSection: false
 # bookCollapseSection: false
 # bookComments: false
 bookSearchExclude: false
-mermaid: true
+type: "page"
 ---
 
 
@@ -20,18 +20,13 @@ mermaid: true
 pie chart or dot plot 
     - Comparison is easier on the dot plot
     - Pie chart is better at showing the percentage of the total that the category represents
-    {{< expand "Problems with pie charts">}}  
+    **Problems with pie charts**
     - Very small slices might overlap 
     - it is hard to compare slices without proper labeling: it is easier to compare when looking at a bar chart
-    {{< /expand >}}
+
 
 
 ### Pie Chart, Bar Graph, Table
-
-
-
-
-
 
 
 ## Quantitative data
@@ -39,7 +34,7 @@ pie chart or dot plot
 - **Quantitative**(numbers): bar chart and histogram
     - Bar chart: only the height of the bars is meaningful
     - Histogram: allows to use bars with different widths representing frequency distribution.
-    {{< expand "Four main aspects of histograms" "" >}}
+
     1. Shape: overall shape of a histogram:
             - symmetric
             - bell-shaped (unimodal: has one peak)
@@ -74,11 +69,6 @@ Interquartile range: between Q1 and Q3.
 
 
 ## Standard deviation 
-
-<!-- {{< katex >}}{SD=frac (o - m)/}{{< /katex >}} -->
-
-
-
 
 ## Assessment
 

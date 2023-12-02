@@ -1,24 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on My New Hugo Site</title>
-    <link>http://example.org/docs/</link>
-    <description>Recent content in Docs on My New Hugo Site</description>
+    <title>Docs on My Stats Site</title>
+    <link>https://naive-betty.netlify.app/docs/</link>
+    <description>Recent content in Docs on My Stats Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/docs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://naive-betty.netlify.app/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matplotlib</title>
+      <link>https://naive-betty.netlify.app/docs/python/matplotlib/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://naive-betty.netlify.app/docs/python/matplotlib/</guid>
+      <description>Matplotlib is a plotting library. In this section give a brief introduction to the matplotlib.pyplot module.
+Installation Install via pip:
+pip install matplotlib Import As Matplotlib builds on the NumPy library, you have to import both.
+import numpy as np import matplotlib.pyplot as plt Create a basic plot # Compute the x and y coordinates for points on a sine curve x = np.arange(0, 3 * np.pi, 0.1) y = np.</description>
+    </item>
     <item>
       <title>NumPy Library Intro</title>
-      <link>http://example.org/docs/python/numpy-library-intro/</link>
+      <link>https://naive-betty.netlify.app/docs/python/numpy-library-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/docs/python/numpy-library-intro/</guid>
-      <description>Intro to NumPy Python Library#Numpy official documentation:
+      <guid>https://naive-betty.netlify.app/docs/python/numpy-library-intro/</guid>
+      <description>Intro to NumPy Python Library Numpy official documentation:
 The fundamental package for scientific computing with Python.
 NumPy doesn’t depend on any other Python packages, however, it does depend on an accelerated linear algebra library - typically Intel MKL or OpenBLAS. Users don’t have to worry about installing those
 For the basics intro see: https://numpy.org/devdocs/user/quickstart.html
-Installation#Via conda or pip:
-pip install numpy Import#Customary way to import:</description>
+Installation Via conda or pip:
+pip install numpy Import Customary way to import:
+import numpy as np Numpy Arrays A NumPy array is a grid of values, all of the same type, and is indexed by a tuple of nonnegative integers.</description>
     </item>
-    
+    <item>
+      <title>Scipy Library</title>
+      <link>https://naive-betty.netlify.app/docs/python/scipy_library/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://naive-betty.netlify.app/docs/python/scipy_library/</guid>
+      <description>Intro to SciPy Library https://scipy.org/
+is an open-source software for mathematics, science, and engineering.
+SciPy docs
+The SciPy library builds on the NymPy&amp;rsquo;s library multidimentional arrays and offers a large number of functions that operate on them.
+It is useful for different types of scientific and engineering applications.
+The SciPy.stats sub-library. Within the .stats sub-library, we see functions for continuous and discreet distributions, descriptive statistics, and also statistical test such as T-test.</description>
+    </item>
+    <item>
+      <title>Silver for Slaves</title>
+      <link>https://naive-betty.netlify.app/docs/python/silver-for-slaves/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://naive-betty.netlify.app/docs/python/silver-for-slaves/</guid>
+      <description>Visit to the silver for slaves exhibition A visit to the Silver for Slaves exhibition at the Silesian Museum in Gorlitz has impressed me and inspired to look further into the data I found overthere. The price that would be paid for certain items such as live stock, artefacts or slaves is something th
+To see a price of foodstuffs, livestock and artefacts alongside prices for a slave is shocking. It is even more shocking to see how the price of a slave compares to other prices.</description>
+    </item>
   </channel>
 </rss>

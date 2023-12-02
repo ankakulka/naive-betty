@@ -4,7 +4,7 @@ date: 2022-12-29T15:16:02+01:00
 draft: true
 # bookComments: false
 # bookSearchExclude: false
-mermaid: true
+type: "page"
 ---
 
 He visited this country also with a view of catching horse-whales,
@@ -26,7 +26,8 @@ described by the noble prophet Moses in the life of patient Job."
 
 
 
-{{< columns >}} <!-- begin columns block -->
+<!-- {{< columns >}} -->
+ <!-- begin columns block -->
 # Left Content
 "The great Leviathan that maketh the seas to seethe like boiling
 pan." LORD BACON'S VERSION OF THE PSALMS.
@@ -40,7 +41,7 @@ incredible quantity of oil will be extracted out of one whale."
 # Right Content
 "The sovereignest thing on earth is parmacetti for an inward bruise."
 KING HENRY.
-{{< /columns >}}
+<!-- {{< /columns >}} -->
 
 
 

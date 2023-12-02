@@ -1,6 +1,7 @@
 ---
 title: "Silver for Slaves"
 weight: 1
+type: "page"
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

@@ -7,7 +7,7 @@ bookToc: true
 # bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
-
+type: "page"
 ---
 
 # Intro to SciPy Library
