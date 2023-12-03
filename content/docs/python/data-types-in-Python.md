@@ -19,11 +19,35 @@ bookToc: true
 | Set         | ```python my_set = {some_val, another_val}```  | NO       | NO | NO|
 | Dictionary  | ```python dict = {key: value}```        | YES\*        | YES | NO |
 
+
+{{< hint info >}} Markdown content
+Dict in Python ordered since version 3.X {{< /hint >}}
+
 # Methods
 
 ## Tuple methods
 
 ## Lists methods
+
+| method | Example |
+| ---------| ---------- |
+| slice | `L[3:5]` 5 not included |
+| append | add ONE element to the list. If a list is appended, it is added as one item - a nested list |
+| extend | add many elements to the list |
+| split | splits a string into a list. Add delimiter as a parameter to split on a specific character, e.g. by comma: `split(,)` |
+| get items at an index range | Get the items stores at indexes 1 to 3 `my_list[1:4]` |
+
+
+
+Clone list by value 
+
+```python
+list_B = list_A[:] 
+list_B
+``` 
+
+Variable B references a new copy or clone of the original list.
+Now if you change A, B will not change.
 
 
 

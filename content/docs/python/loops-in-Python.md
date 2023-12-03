@@ -119,9 +119,14 @@ while i < 11:
 
 Print all the values from the list: 
 ```python
-
+colors = ['orange', 'orange', 'purple', 'blue ', 'orange']
+i = 0
+while(i < len(colors)):
+    print(colors[i])
+    i = i + 1
 
 ```
+You can also iterate using while loop over a tuple (but not over a set or dict)
 
 
 
