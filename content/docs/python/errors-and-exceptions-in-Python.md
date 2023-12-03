@@ -56,3 +56,46 @@ except ZeroDivisionError:
 print("outside of try and except block")
 
 ```
+
+Try except **else**  allows one to check if there was no exception when executing the try block. This is useful when we want to execute something only if there were no errors.
+
+```python
+# potential code before try catch
+
+try:
+    # code to try to execute
+except ZeroDivisionError:
+    # code to execute if there is a ZeroDivisionError
+except NameError:
+    # code to execute if there is a NameError
+except:
+    # code to execute if ther is any exception
+else:
+    # code to execute if there is no exception
+    
+# code that will execute if there is no exception or a one that we are handling
+
+```
+
+`finally` allows us to always execute something even if there is an exception or not. This is usually used to signify the end of the try except.
+
+```python
+# potential code before try catch
+
+try:
+    # code to try to execute
+except ZeroDivisionError:
+    # code to execute if there is a ZeroDivisionError
+except NameError:
+    # code to execute if there is a NameError
+except:
+    # code to execute if ther is any exception
+else:
+    # code to execute if there is no exception
+finally:
+    # code to execute at the end of the try except no matter what
+    
+# code that will execute if there is no exception or a one that we are handling
+
+```
+
