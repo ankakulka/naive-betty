@@ -56,7 +56,7 @@ The shape of the array gives you the dimesions and the number of values.
 Use the dot function to acces the shape of the array:
 
 ```python
-print(np.shape(test_array))
+print(np.shape[test_array])
 
 ```
 
@@ -89,7 +89,6 @@ constant_values = np.full((3,3), 9)
 # 9 specifies the constant value
 
 ```
-
 
 ### Random array 
 

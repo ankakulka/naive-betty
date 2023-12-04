@@ -67,33 +67,27 @@ It is often very useful to know where the 'cursor' is in a file and be able to c
 `.tell()` - returns the current position in bytes
 `.seek(offset,from)` - changes the position by 'offset' bytes with respect to 'from'. From can take the value of 0,1,2 corresponding to beginning, relative to current position and end
 
- {{< columns >}}
- <!-- begin columns block -->
-# Reading and writing
-`r+`
-Cannot truncate the file.
-
-# Writing and reading
-`w+`
-Truncates the file.
-
-# Appending and Reading
-`a+`
-Creates a new file, if none exists. 
-<!-- {{< /columns >}} -->
-
-<!-- {{< tabs "uniqueid" >}}
-{{< tab "HOBBES'S LEVIATHAN" >}} By art is created that great Leviathan, called a Commonwealth or
-State--(in Latin, Civitas) which is but an artificial man.{{< /tab >}}
-{{< tab "PILGRIM'S PROGRESS" >}} Silly Mansoul swallowed it without chewing, as if it had been a
-sprat in the mouth of a whale.{{< /tab >}}
-{{< tab "PARADISE LOST" >}} That sea beast
-Leviathan, which God of all his works
-Created hugest that swim the ocean stream. {{< /tab >}}
-{{< /tabs >}} -->
 
 
-<!-- | Syntax      | Description |
+
+## File modes table
+
+
+
+
+| Syntax      | Mode |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        | -->
+| `r`   | read      |
+| `w`  | write        | 
+| `a`  | append       | 
+| `x` | exclusive creation |
+| `wb` | write binary |
+| `ab` | append bnary |
+| `xb` | exclusive binary creation |
+| `rt` | read text | 
+| `wt` | write text |
+| `xt` | exclusive text creation |
+| `r+` | Reading and writing: Cannot truncate the file. |
+|  `w+`  | Writing and reading: Truncates the file |
+|  `a+`   | Appending and Reading: Creates a new file, if none exists |
+
