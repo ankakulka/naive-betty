@@ -1,8 +1,8 @@
 ---
 title: "Handling Files With Python"
 weight: 1
-# bookFlatSection: false
-# bookToc: true
+bookFlatSection: false
+bookToc: true
 # bookHidden: false
 # bookCollapseSection: false
 # bookComments: false
@@ -65,15 +65,9 @@ Opening the file in w is akin to opening the .txt file, moving your cursor to th
 It is often very useful to know where the 'cursor' is in a file and be able to control it. The following methods allow us to do precisely this -
 
 `.tell()` - returns the current position in bytes
-`.seek(offset,from)` - changes the position by 'offset' bytes with respect to 'from'. From can take the value of 0,1,2 corresponding to beginning, relative to current position and end
-
-
-
+`.seek(offset,from)` - changes the position by 'offset' bytes with respect to 'from'. From can take the value of 0,1,2 corresponding to beginning, relative to current position and end.
 
 ## File modes table
-
-
-
 
 | Syntax      | Mode |
 | ----------- | ----------- |
