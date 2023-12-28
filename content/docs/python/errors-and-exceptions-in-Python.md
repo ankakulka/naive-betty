@@ -40,7 +40,7 @@ Common Built-in Python exceptions
 | `ImportError` | when importing a module that is unavailable |
 
 
-[Python Documentation](https://docs.python.org/3/library/exceptions.html#) lists all exceptions. 
+<!-- [Python Documentation](https://docs.python.org/3/library/exceptions.html#) lists all exceptions.  -->
 
 ### Specific exception example code
 
