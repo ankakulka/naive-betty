@@ -228,6 +228,32 @@ Start-up grants for unemployed
 
 If you have lost your job and are considering freelance work as an alternative to unemployment benefit, you may be entitled to a start-up grant to help get your new business up on its feet.
 
+Tax ID Germany (steuerliche Identifikationsnummer)
+
+
+
+Expats living and working in Germany will need a tax ID (steuerliche Identifikationsnummer - IdNr). This unique number is issued by the Federal Central Tax Office to everyone registered in Germany in order to administer taxes.
+What is a tax ID?
+
+The tax ID was introduced in Germany in 2007 as a way to centralise and streamline the German tax system. It replaced previous tax identification numbers on all income tax matters; numbers issued before 2007 are still valid but are gradually being phased out.   
+
+Every resident in Germany, whether expat or German citizen, is issued a unique number that they will use for their entire life. Even babies will receive one in the post shortly after they are born! The tax ID (also commonly referred to as a Steueridentifikationsnummer, steuerliche Identifikationsnummer, Steuer-IdNr., IdNr. or Steuer-ID) consists of 11 numbers in the format 00 000 000 000.
+
+This number is required by your employer to pay your salary and to calculate the amount of tax you need to pay. If you do not have a tax ID you will be charged the maximum rate of tax until you get one.
+How do I get a tax ID?
+
+Your tax ID will automatically be issued to you the first time you register in Germany. Everyone who is planning on working in Germany or staying longer than three months needs to register their address at their local citizens’ office (Bürgeramt) within 14 days of arrival.
+
+To register and receive your tax ID, you will need to provide a valid form of identification, such as a passport or identity card (not a driving licence) along with a proof of residence certificate (Wohnungsgeberbestätigung). Once you have successfully registered and received your registration certificate (Anmeldebescheinigung), your tax ID will be sent to you in the post. It usually takes two to three weeks.
+Tax ID vs tax number
+
+Note that the tax ID is not the same as a tax number (Steuernummer). The tax number (sometimes also called the freelance tax number) is a separate unique number used by freelancers for invoicing and tax returns. It has the format 00/000/00000. The tax number is related to where you live and the tax office (Finanzamt) responsible for you, so if you change your address your tax number might change too.
+
+The tax number is due to be phased out and entirely replaced by the tax ID, but for the moment, anyone who is self-employed will also need a tax number. You can get your tax number by submitting a Questionnaire for Tax Collection (Fragebogen zur steuerlichen Erfassung) to your local tax office. Find out more about this process in our entrepreneur section.
+Lost Tax ID
+
+If for any reason you never received your tax ID, or you have lost it, you can request for it be re-sent to you via the Federal Central Tax Office’s website. It usually takes four weeks for it to arrive in the post. For security reasons, you can only receive your tax ID in the post.
+
 
 
 
