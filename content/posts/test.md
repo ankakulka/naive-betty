@@ -255,5 +255,25 @@ Lost Tax ID
 If for any reason you never received your tax ID, or you have lost it, you can request for it be re-sent to you via the Federal Central Tax Office’s website. It usually takes four weeks for it to arrive in the post. For security reasons, you can only receive your tax ID in the post.
 
 
+**Freelancers and taxes: Income tax(Einkommensteuer)**
+
+Freelancers are subject to income tax (Einkommensteuer)
+ in the same way as all natural persons. This is based on the amount of income.
+
+Income tax for freelancers is calculated based on the profit they make- i.e. turnover minus costs. In Germany, the tax rate for income tax increases progressively. This means that the higher the profit, the higher the personal tax rate.
+
+Tip for freelancers: As a freelancer, you register your self-employment with the tax office, which promptly sends you a questionnaire for tax registration.
+ Here, freelancers should not make the mistake of forecasting their expected income too optimistically. This is because the taxes to be paid are calculated on the basis of this information. If the profit is lower than planned, these will be repaid at the end of the year, but they must first be paid in advance during the year.
+
+**Freelancers and trade tax (Gewerbesteuer)**
+
+ Freelancers do not pay trade tax
+
+Almost all business founders have to register a business. Only freelancers are exempt from this requirement.In addition to not having to register with the trade office, freelancers do not have to pay trade tax.However, the distinction between freelancers and traditional trades is not always clear and unambiguous.In principle, scientific, artistic, educational or literary activities are not subject to the trade regulations.
+
+Freelancers may also earn income from commercial activities without losing their status as freelancers, but care must be taken to ensure that freelance and commercial activities do not intermingle. Examples include a doctor who sells dental care products on the side or an IT consultant who sells PC software on the side.As soon as the commercial activity takes on a larger role, the tax office may even categorise all activities, including freelance work, as commercial. In this case, freelancers should definitely consult a tax consultant.
+
+
+
 
 
