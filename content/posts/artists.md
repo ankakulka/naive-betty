@@ -1,9 +1,11 @@
 ---
-title: "Test"
-date: 2022-12-29T15:16:02+01:00
+title: "Artists social security"
+date: 2023-12-29T15:16:02+01:00
 draft: false
+weight: 1
 # bookComments: false
 # bookSearchExclude: false
+bookToc: true
 type: "page"
 ---
 

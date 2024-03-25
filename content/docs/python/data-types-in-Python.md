@@ -1,7 +1,7 @@
 ---
 title: "Data Types in Python"
 weight: 1
-draft: flase
+draft: false
 bookToc: true
 # bookFlatSection: false
 # bookHidden: false
