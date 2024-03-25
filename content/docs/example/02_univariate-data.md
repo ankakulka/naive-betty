@@ -2,7 +2,7 @@
 title: "Univariate Data"
 weight: 1
 bookFlatSection: false
-# bookToc: true
+bookToc: true
 # bookHidden: false
 # bookCollapseSection: false
 # bookComments: false
